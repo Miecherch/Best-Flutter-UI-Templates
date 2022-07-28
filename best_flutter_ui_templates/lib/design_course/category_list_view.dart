@@ -260,14 +260,14 @@ class CategoryView extends StatelessWidget {
                     Container(
                       child: Padding(
                         padding: const EdgeInsets.only(
-                            top: 24, bottom: 24, left: 16),
+                            top: 25, bottom: 24, left: 16),
                         child: Row(
                           children: <Widget>[
                             ClipRRect(
                               borderRadius:
                                   const BorderRadius.all(Radius.circular(16.0)),
                               child: AspectRatio(
-                                  aspectRatio: 1.0,
+                                  aspectRatio: 2.0,
                                   child: Image.asset(category!.imagePath)),
                             )
                           ],
